@@ -50,10 +50,10 @@ The CSV import performs a file reading stream and uses a POST method on the `/ta
 ## How to run🚀
 ```bash
 # Clone the project to the desired location on your computer.
-$ git clone https://github.com/leonardomenezes7/rocketmovies_frontend.git
+$ git clone https://github.com/leonardomenezes7/tasks-api.git
 
 # Navigate to the directory
-$ cd foodexplorer_frontend
+$ cd tasks-api
 
 # Install necessary dependencies
 $ npm install
@@ -61,7 +61,11 @@ $ npm install
 # Run
 $ npm run dev
 
+# Use Insomnia and import the JSON file provided in the project files.
+
 ```
+
+### Developed by Leonardo Menezes
 
 
 
