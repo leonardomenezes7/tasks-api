@@ -40,6 +40,29 @@ Before making the change, a validation is performed to check if the `id` belongs
 - `DELETE /tasks/:id` It is possible to remove a task by its `id`.
 Before performing the removal, a validation is done to check if the `id` belongs to a task saved in the database.
 
+CSV Import:
+The CSV import performs a file reading stream and uses a POST method on the `/tasks` route to save the tasks from the CSV file into the JSON database.
+
+## Technologies used🛠️
+- Node.js
+- csv-parse
+
+## How to run🚀
+```bash
+# Clone the project to the desired location on your computer.
+$ git clone https://github.com/leonardomenezes7/rocketmovies_frontend.git
+
+# Navigate to the directory
+$ cd foodexplorer_frontend
+
+# Install necessary dependencies
+$ npm install
+
+# Run
+$ npm run dev
+
+```
+
 
 
 
